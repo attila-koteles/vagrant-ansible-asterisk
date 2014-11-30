@@ -16,7 +16,7 @@ asterisk_tcp_port: 5060
 asterisk_udp_port: 5060
 asterisk_tls_port: 5061
 asterisk_transport: "tls,tcp,udp"
-asterisk_encryption: "yes"
+asterisk_encryption: "no"
 
 # Asterisk sip settings
 asterisk_realm: "realm"
