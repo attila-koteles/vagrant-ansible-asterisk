@@ -15,7 +15,7 @@ asterisk_ip: "{{ boxipaddress }}"
 asterisk_tcp_port: 5060
 asterisk_udp_port: 5060
 asterisk_tls_port: 5061
-asterisk_transport: "tls,tcp,udp"
+asterisk_transport: "tcp,udp"
 asterisk_encryption: "no"
 
 # Asterisk sip settings

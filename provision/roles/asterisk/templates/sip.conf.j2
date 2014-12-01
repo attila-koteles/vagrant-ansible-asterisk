@@ -11,7 +11,7 @@ udpbindaddr={{ asterisk_ip }}:{{ asterisk_tcp_port }}
 tcpbindaddr={{ asterisk_ip }}:{{ asterisk_udp_port }}
 
 ; TLS settings
-tlsenable=yes
+tlsenable=no
 tlsbindaddr={{ asterisk_ip }}:{{ asterisk_tls_port }}
 tlscertfile=/etc/asterisk/keys/asterisk.pem
 tlsprivatekey=/etc/asterisk/keys/asterisk.key
